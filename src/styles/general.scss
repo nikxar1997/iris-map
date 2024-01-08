@@ -1,0 +1,27 @@
+@use "variables";
+
+.mainLayout {
+  display: flex;
+  background-color: variables.$primary;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+}
+.mainPage {
+  display: flex;
+  min-height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+::-webkit-scrollbar {
+  background-color: variables.$primaryLight;
+  width: 0.5vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: variables.$cyan;
+  width: 0.5vw;
+  border-radius: 5px;
+}

@@ -9,9 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@babylonjs/core": "^6.37.1",
+    "@babylonjs/loaders": "^6.37.1",
+    "@babylonjs/materials": "^6.37.1",
+    "@babylonjs/procedural-textures": "^6.37.1",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.3",
+    "@mui/material": "^5.15.3",
+    "axios": "^1.6.5",
+    "moment": "^2.30.1",
+    "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.4"
+    "sass": "^1.69.7",
+    "uuid": "^9.0.1",
+    "uuidv4": "^6.2.13"
   },
   "devDependencies": {
     "eslint": "^8",
